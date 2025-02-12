@@ -24,10 +24,10 @@ export default function EmailForm() {
 
     emailjs
       .send(
-        "YOUR_SERVICE_ID", // Replace with your EmailJS service ID
-        "YOUR_TEMPLATE_ID", // Replace with your EmailJS template ID
+        "service_t3ekb7s", // Replace with your EmailJS service ID
+        "template_ee67w0q", // Replace with your EmailJS template ID
         formData,
-        "YOUR_PUBLIC_KEY" // Replace with your EmailJS public key
+        "lm9OfIoEX-tsyHewf" // Replace with your EmailJS public key
       )
       .then(
         (response) => {

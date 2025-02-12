@@ -9,7 +9,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
-          <div className="font-bold text-xl">Marvis Pichardo Contracting</div>
+          <div className="font-bold text-xl">Clever Builders Florida</div>
           <nav className="hidden md:flex gap-6">
             <a href="#services" className="text-sm font-medium hover:underline underline-offset-4">
               Services
@@ -139,7 +139,7 @@ export default function Home() {
 
       <footer className="bg-gray-900 text-white py-8">
         <div className="container mx-auto px-4 text-center">
-          <p>&copy; {new Date().getFullYear()} Marvis Pichardo Contracting. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Clever Builders LLC. All rights reserved.</p>
         </div>
       </footer>
     </div>
